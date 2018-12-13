@@ -79,6 +79,53 @@ nav {
     width: 30%;
 }
 
+footer {
+    width: 100%;
+    height: auto;
+    background: #000;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+footer a {
+    color: #fff;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+footer p {
+    color: #fff;
+    margin-top: 10px;
+}
+
+footer nav a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.social a {
+    font-size: 20px;
+    padding: 5px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.social i {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.social-networks:hover {
+    background: #494949;
+}
+
+.social-networks{
+    width: 25px !important;
+}
+
+
 @media screen and (max-width: 768px) {
     .topnav a:not(:first-child) {
         display: none;
