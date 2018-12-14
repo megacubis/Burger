@@ -323,6 +323,35 @@ textarea {
     margin-top: 40px;
 }
 
+.services {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.services img {
+    max-width: 100%;
+}
+
+.services__container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 50px 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -387,5 +416,8 @@ textarea {
     } 
     .blog-container {
         width: 20rem;
+    }
+    .services__container {
+        grid-template-columns: auto;
     }
 }
