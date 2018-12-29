@@ -341,20 +341,6 @@ textarea {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 768px) {
     .topnav a:not(:first-child) {
         display: none;
@@ -392,7 +378,6 @@ textarea {
         width: 28rem;
     }
 }
-
 
 @media screen and (max-width: 420px) {
     .advantages {
